@@ -19,6 +19,9 @@ public class NPCFactory : MonoBehaviour
             case NPCType.Shopowner:
                 INPC shopowner = new Shopowner();
                 return shopowner;
+            case NPCType.Wolf:
+                INPC wolf = new Wolf();
+                return wolf;
         }
         return null;
     }

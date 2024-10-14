@@ -17,19 +17,24 @@ public class Client : MonoBehaviour
             m_SpawnerNPC.SpawnVillagers();
         } 
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             m_SpawnerNPC.m_Farmer.Speak(speakBubble);
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             m_SpawnerNPC.m_Begger.Speak(speakBubble);
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.O))
         {
             m_SpawnerNPC.m_Shopowner.Speak(speakBubble);
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            m_SpawnerNPC.m_Wolf.Speak(speakBubble);
         }
     }
 }

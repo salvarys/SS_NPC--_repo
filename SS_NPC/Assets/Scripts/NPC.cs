@@ -11,5 +11,6 @@ public enum NPCType
 {
     Farmer,
     Begger,
-    Shopowner
+    Shopowner,
+    Wolf
 }
