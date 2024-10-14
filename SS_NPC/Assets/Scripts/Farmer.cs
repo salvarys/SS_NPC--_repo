@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class Farmer : INPC
 {
-    public void Speak()
+    public void Speak(TextMeshProUGUI npcText)
     {
-        Debug.Log("You reap what you sow!");
+        npcText.text="You reap what you sow!";
     }
 }

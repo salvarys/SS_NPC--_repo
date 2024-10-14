@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class Shopowner : INPC
 {
-   public void Speak()
+   public void Speak(TextMeshProUGUI npcText)
     {
-        Debug.Log("Do you want to purchase something?");
+        npcText.text="Do you want to purchase something?";
     }
 }

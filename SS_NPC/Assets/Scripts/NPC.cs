@@ -1,9 +1,10 @@
-
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public interface INPC
 {
-    void Speak();
+    void Speak(TextMeshProUGUI npcText);
 }
 
 public enum NPCType
